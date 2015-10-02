@@ -4,7 +4,7 @@ import vkontakte
 import json
 import time
 
-(token,user_id) = vk_auth.auth('сюда введи мыло(свое)', 'сюда введи пароль(свой)', '5054584', "photos")
+(token,user_id) = vk_auth.auth('vk.finder@mail.ru', '123456789', '5054584', "photos")
 vk = vkontakte.API(token=token)
 print "Hello from VK API , server time is ",vk.getServerTime()
 
